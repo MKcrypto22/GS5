@@ -1,0 +1,45 @@
+.menu {
+  padding: 2rem;
+}
+.title {
+  text-align: center;
+}
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #f0d2a5;
+  margin: 0.5rem auto;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.filter-btn {
+  background: #9c7438;
+  border-color: transparent;
+  padding: 0.375rem 0.75rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+}
+.filter-btn:hover {
+  background: #c68845;
+  color: rgb(255, 255, 255);
+}
+.menu-item {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+.price {
+  color: #320410;
+}
